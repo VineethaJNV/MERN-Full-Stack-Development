@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-decoration: wavy red underline;
+    /* border: solid;
+    width: 50%; */
+    letter-spacing: 7px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: fantasy;
+}
+h3{
+    text-align: right ;
+    text-decoration: pink line-through;
+    letter-spacing: 5px;
+}
+p{
+    text-align: right;
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: 20px;
+
+}
+h2{
+    font-weight: bold;
+    text-decoration: double blue overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-decoration: none;
+}
