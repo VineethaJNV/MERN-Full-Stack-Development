@@ -1,0 +1,16 @@
+h1{
+    display: inline;
+    background-color: pink;
+}
+h2{
+    display: inline;
+    background-color: yellowgreen;
+}
+span{
+    /* display: block; */
+    background-color: lime;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding:50px
+}
