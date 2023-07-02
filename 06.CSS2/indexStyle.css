@@ -1,0 +1,100 @@
+h3{
+    background-color: antiquewhite !important;
+}
+*{
+    font-family: 'Courier New';
+    /* background-color: aqua; */
+}
+
+/* h3{
+    color:purple ;
+} */
+h3,h1{
+    color: #b92b27;
+}
+
+#login{
+    background-color: yellow;
+}
+
+#signup{
+    background-color: lightgreen;
+}
+
+.uv{
+    background-color: green;
+    color: white;
+}
+
+/* Descedent Selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li {
+    color: hotpink;
+}
+p+h3{
+    text-decoration: underline ;
+}
+
+.uv + button{
+    color: white;
+    background-color: blue;
+}
+
+div > input{
+    background-color: rgb(245, 243, 149);
+}
+
+input[type = "text"]{
+    color: rgb(255, 0, 13);
+}
+input[type = "password"]{
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* #myId p{
+    color: #b92b27;
+} */
+div[id = "myId"] p{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: pink;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type = "radio"]:checked + label{
+    color: green;
+    background-color: navajowhite;
+    font-weight: bold;
+}
+p:nth-of-type(2n) {
+    color: red;
+  }
+
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: limegreen;
+}
+h3{
+    background-color: blue;
+}
