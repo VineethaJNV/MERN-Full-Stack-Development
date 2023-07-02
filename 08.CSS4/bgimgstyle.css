@@ -1,0 +1,9 @@
+div{
+    height: 500px;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: green;
+    background-image: url("unsplash.jpg");
+    background-size: auto;
+    color: white;
+}

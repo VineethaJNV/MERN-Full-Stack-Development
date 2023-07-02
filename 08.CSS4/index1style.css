@@ -1,0 +1,21 @@
+#opacity{
+    background-color: yellow; 
+    opacity: 0.5;
+}
+div{
+    transition: margin-top 2s ease-in 0.2s;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-top: 10px;
+    margin: 0 auto
+    /* transition: 3 s; */
+    /* transform: margin-top 2s ease-in-out 0.2s; */
+    
+}
+div:hover{
+    background-color: pink;
+    /* border-radius: 50%; */
+    margin-top: 400px;
+
+}

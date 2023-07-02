@@ -1,0 +1,44 @@
+#outer{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    border: 2px solid black;
+}
+#face{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.eye1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top:100px;
+    left: 75px;
+    margin-right: 200px;
+
+}
+.eye2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top:50px;
+    left:250px;
+    margin-left: 100pxs;
+
+}
+.mouth{
+    height: 70px;
+    width: 200px;
+    position: relative;
+    top:150px;
+    left:85px;
+    border-radius: 0 0 50px 50px;
+    background-color: red;
+}
